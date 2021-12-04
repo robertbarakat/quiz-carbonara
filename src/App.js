@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './components/Header/Header';
+import QuizContainer from './components/QuizContainer/QuizContainer';
 
 function App() {
     return (
-        <div className='App'>
-            <header className='App-header'>
-                <img src={logo} className='App-logo' alt='logo' />
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <a
-                    className='App-link'
-                    href='https://reactjs.org'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                >
-                    Quiz Carbonara
-                </a>
-            </header>
+        <div className='app-container'>
+            <Header
+                title='Test: come si fa la carbonara?'
+                subtitle='Rispondi alle domande'
+            />
+
+            <QuizContainer>
+                <h3>Testo random</h3>
+            </QuizContainer>
         </div>
     );
 }

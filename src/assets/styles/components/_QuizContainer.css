@@ -1,0 +1,11 @@
+.quiz-container {
+    min-width: 300px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    background-color: var(--background-light-blue);
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0px #000000;
+}

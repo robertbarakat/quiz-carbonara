@@ -1,0 +1,4 @@
+@import './_App.css';
+@import './_variables.css';
+@import './components/_Header.css';
+@import './components/_QuizContainer.css';
