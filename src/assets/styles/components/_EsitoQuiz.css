@@ -1,0 +1,8 @@
+.esito-quiz-container {
+    text-align: center;
+    padding: 1rem;
+}
+
+.esito-quiz-container > h4 {
+    color: var(--quiz-question-green);
+}

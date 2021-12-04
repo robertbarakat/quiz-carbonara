@@ -1,4 +1,10 @@
+/* GENERAL CSS */
 @import './_App.css';
 @import './_variables.css';
+
+/* COMPONENTS CSS */
+@import './components/_Button.css';
+@import './components/_BoxContainer.css';
+@import './components/_EsitoQuiz.css';
 @import './components/_Header.css';
-@import './components/_QuizContainer.css';
+@import './components/_QuizContainer.css'

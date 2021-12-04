@@ -1,0 +1,11 @@
+.box-container {
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    background-color: var(--background-light-blue);
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0px #000000;
+}
