@@ -17,4 +17,6 @@ const Template = (args) => <QuizContainer {...args} />;
 export const Default = Template.bind({});
 Default.args = {
     quizData: mockedData,
+    handleChange: () => alert('Click action'),
+    currentQuestionIdx: 1,
 };
